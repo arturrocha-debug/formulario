@@ -1,0 +1,122 @@
+<html>
+  <head>
+    <Style> 
+       h1{color: green; text-align:center;}
+      </Style>
+  </head>
+  <body>
+    <h1>Agendamento de consulta da Clínica odontológica Sorriso</h1>
+    <form>
+      <!-- texto -->
+      <label for = "text"> Nome Completo:</label> <br>
+      <input type = "text" id = "text" name = "text" placeholder = "Digite seu nome  ">
+      <br>
+      
+      <p><!-- Número --></p>
+      <label for = "number"> CPF:</label> <br>
+      <input type = "number" id = "number" name = "number" placeholder = "Digite seu CPF ">
+      <br>
+      
+      <p><!-- CEP --></p>
+      <label for = "number"> CEP:</label> <br>
+      <input type = "number" id = "number" name = "number" placeholder = "Digite seu CEP ">
+      <br>
+      
+      
+      <p><!-- Idade --></p>
+      <label for = "number"> Idade:</label> <br>
+      <input type = "number" id = "number" name = "number" placeholder = "Selecione um valor ">
+      <br>
+      
+      <p><!-- Data --></p>
+      <label for = "data"> Data de nascimento:</label> <br>
+      <input type = "date" id = "date" name = "date">
+      <br>
+      
+      <p><!-- Data e hora --></p>
+      <label for = "datetime"> Data e horário da consulta:</label> <br>
+      <input type = "datetime-local" id = "datetime" name = "datetime">
+      <br>
+      
+      <p><!-- e-mail --></p>
+      <label for = "email"> E-mail:</label> <br>
+      <input type = "email" id = "email" name = "email" placeholder = "exemplo@gmail.com ">
+      <br>
+      
+      <!-- Campo escondido (hidden) -->
+      <input type="hidden" name="clinica" value="Odonto Sorriso">
+
+      
+      <p> <!-- Senha --></p>
+      <label for = "password"> Senha:</label> <br>
+      <input type = "password" id = "password" name = "password" placeholder = "Digite sua senha">
+      <br>
+      
+      <p> <!-- telefone --></P>
+      <label for = "text"> Telefone:</label> <br>
+      <input type = "tel" id = "tel" name = "tel" placeholder = "(xx)xxxxx-xxxx">
+      <br>
+      
+      <p><! -- Caixa de seleção--></p>
+       <label for = "checkbox"> Selecione os serviços desejados: <br>
+        
+      <input type="checkbox" id="checkbox" name="checkbox" >
+       <label for="limpeza">Limpeza</label><br>
+        
+      <input type="checkbox" id="checkbox" name="checkbox">
+       <label for="canal">Tratamento de Canal</label><br>
+        
+      <input type="checkbox" id="checkbox" name="checkbox">
+        <label for="clareamento">Clareamento Dental</label><br>
+        
+      <input type="checkbox" id="checkbox" name="checkbox">
+        <label for="restauracao">Restauração Dental</label><br>
+        
+      <input type="checkbox" id="checkbox" name="checkbox">
+       <label for="extracao">Extração Dentária</label><br>
+        
+      <input type="checkbox" id="checkbox" name="checkbox" >
+       <label for="aparelho">Colocação de Aparelho Ortodôntico</label><br>
+
+      <input type="checkbox" id="checkbox" name="checkbox">
+       <label for="proteses">Próteses Dentárias</label><br>
+
+      <input type="checkbox" id="checkbox" name="checkbox">
+       <label for="implante">Implante Dental</label><br>
+
+      <input type="checkbox" id="checkbox" name="checkbox">
+       <label for="raioX">Exame de Raio-X</label><br>
+
+      <input type="checkbox" id="checkbox" name="checkbox">
+       <label for="checkup">Check-up Preventivo</label><br>
+    <br>
+      
+    <!-- Botões de rádio-->
+      <label for = "radio"> Forma de pagamento:</label> <br>
+        
+      <input type = "radio" id = "radio" name = "radio" >
+       <label for="radio">Crédito</label><br>
+        
+      <input type = "radio" id = "radio" name = "radio" >
+       <label for="radio">Débito</label><br>
+        
+      <input type = "radio" id = "radio" name = "radio" >
+       <label for="implante">Dinheiro</label><br>
+         
+      <input type = "radio" id = "radio" name = "radio" >
+        <label for="implante">PIX</label><br>
+    
+      
+         <p><!-- Seletor de cores-->  <label for = "cor"> Selecione a cor do aparelho dental (caso tenha escolhido a opção "Colocação de Aparelho Ortodôntico" )</label> <br>
+      <input type = "color" id = "cor" name = "cor" value = "#FFC0CB" >
+    <br>
+      
+       <!-- Submit -->
+         <p><input type="submit" value="Agendar Consulta"><br></p>
+   
+  <!-- Botão -->
+         <p><button type="button" onclick="alert('Obrigado por preencher!')">Sair</button></p>
+</form>
+                                                     
+  </body>
+ </html>
